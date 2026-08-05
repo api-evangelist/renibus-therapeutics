@@ -42,5 +42,11 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Rénibus Therapeutics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
+Rénibus Therapeutics is a privately held clinical-stage biopharmaceutical company headquartered in Southlake, Texas, developing treatments for cardio, renal and metabolic disease. Its pipeline is led by veverimer, a non-absorbed polymer in Phase 3 for metabolic acidosis in chronic kidney disease, and RBT-1 (stannic protoporfin / iron sucrose), a first-in-class intravenous pharmacologic preconditioning agent given 24–48 hours before non-emergent cardiac surgery to reduce post-operative complications, which holds FDA Breakthrough Therapy and Fast Track designations and completed the pivotal Phase 3 PROTECT trial.
+
+## API coverage
+
+**No API surface.** Rénibus publishes a ten-page corporate marketing site and no developer program. Contract discovery on 2026-08-05 probed `/openapi.json`, `/openapi.yaml`, `/swagger.json`, `/v1/openapi.json`, `/api-docs`, `/docs`, `/redoc`, `/graphql`, `/llms.txt`, `/.well-known/agent-card.json`, `/.well-known/agent.json`, `/.well-known/security.txt`, `/.well-known/openid-configuration`, `/.well-known/oauth-authorization-server`, `/.well-known/api-catalog` and `/.well-known/ai-plugin.json` — all 404. `api.`, `developer.`, `docs.`, `portal.`, `status.` and `trust.renibus.com` do not resolve in DNS. See `x-coverage` in `apis.yml`.
+
+- https://www.renibus.com/
 - https://forgeglobal.com/renibus-therapeutics_stock/

@@ -1,7 +1,16 @@
 aid: renibus-therapeutics
 name: Rénibus Therapeutics
-description: 'Rénibus Therapeutics is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Rénibus Therapeutics is a privately held clinical-stage biopharmaceutical
+  company headquartered in Southlake, Texas, developing treatments for cardio, renal
+  and metabolic disease. Its pipeline is led by veverimer, a non-absorbed polymer in
+  Phase 3 for metabolic acidosis in chronic kidney disease, and RBT-1 (stannic protoporfin
+  / iron sucrose), a first-in-class intravenous pharmacologic preconditioning agent
+  given 24-48 hours before non-emergent cardiac surgery to reduce post-operative complications,
+  which holds FDA Breakthrough Therapy and Fast Track designations and completed the
+  pivotal Phase 3 PROTECT trial. The company publishes a corporate marketing site,
+  a news and events feed, an expanded access policy and patient information, but operates
+  no developer program, public API, or machine-readable API contract.'
+image: https://www.renibus.com/wp-content/uploads/2022/10/renibus-therapeutics-logo-retina.png
 url: https://raw.githubusercontent.com/api-evangelist/renibus-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +21,13 @@ created: '2026-08-05'
 modified: '2026-08-05'
 tags:
 - Company
+- Biopharmaceutical
+- Pharmaceuticals
+- Life Sciences
+- Healthcare
+- Clinical Trials
+- Nephrology
+- Cardiovascular
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +36,47 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://www.renibus.com/
+- type: About
+  url: https://www.renibus.com/about-us/
+- type: Blog
+  url: https://www.renibus.com/news-and-events/
+- type: BlogRSS
+  url: https://www.renibus.com/feed/
+- type: Support
+  url: https://www.renibus.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.renibus.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.renibus.com/terms-and-conditions/
+- type: Careers
+  url: https://www.renibus.com/careers/
+- type: DomainSecurity
+  url: security/renibus-therapeutics-domain-security.yml
+- type: SecondaryMarket
   url: https://forgeglobal.com/renibus-therapeutics_stock/
+x-enrichment:
+  date: '2026-08-05'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: Rénibus is a clinical-stage drug developer whose entire public web presence is
+    a ten-page WordPress/Avada marketing site (about, approach, patients, news, careers,
+    contact, policies) with no developer, docs, or API section; api./developer./docs./portal.renibus.com
+    do not resolve in DNS and every contract-discovery path returns 404 — the only machine-readable
+    endpoint on the host is the generic WordPress /wp-json/ CMS route, which is not a product API.
+  evidence:
+  - url: https://www.renibus.com/openapi.json
+    status: 404
+  - url: https://www.renibus.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.renibus.com/.well-known/security.txt
+    status: 404
+  - url: https://www.renibus.com/llms.txt
+    status: 404
+  - url: https://www.renibus.com/sitemap.xml
+    status: 200
+  checked: '2026-08-05'
