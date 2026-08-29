@@ -10,6 +10,17 @@ description: 'Rénibus Therapeutics is a privately held clinical-stage biopharma
   pivotal Phase 3 PROTECT trial. The company publishes a corporate marketing site,
   a news and events feed, an expanded access policy and patient information, but operates
   no developer program, public API, or machine-readable API contract.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://www.renibus.com/wp-content/uploads/2022/10/renibus-therapeutics-logo-retina.png
 url: https://raw.githubusercontent.com/api-evangelist/renibus-therapeutics/refs/heads/main/apis.yml
 x-type: company
