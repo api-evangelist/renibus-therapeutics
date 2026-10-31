@@ -64,11 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Rénibus Therapeutics is a privately held clinical-stage biopharmaceutical company headquartered in Southlake, Texas, developing treatments for cardio, renal and metabolic disease. Its pipeline is led by veverimer, a non-absorbed polymer in Phase 3 for metabolic acidosis in chronic kidney disease, and RBT-1 (stannic protoporfin / iron sucrose), a first-in-class intravenous pharmacologic preconditioning agent given 24–48 hours before non-emergent cardiac surgery to reduce post-operative complications, which holds FDA Breakthrough Therapy and Fast Track designations and completed the pivotal Phase 3 PROTECT trial.
+Rénibus Therapeutics is a privately held clinical-stage biopharmaceutical company headquartered in Southlake, Texas, developing treatments for cardio, renal and metabolic disease. Its pipeline is led by veverimer, a non-absorbed polymer in Phase 3 for metabolic acidosis in chronic kidney disease, and RBT-1 (stannic protoporfin / iron sucrose), a first-in-class intravenous pharmacologic preconditioning agent given 24-48 hours before non-emergent cardiac surgery to reduce post-operative complications, which holds FDA Breakthrough Therapy and Fast Track designations and completed the pivotal Phase 3 PROTECT trial. The company publishes a corporate marketing site, a news and events feed, an expanded access policy and patient information, but operates no developer program, public API, or machine-readable API contract.
 
-## API coverage
+**Areas:** Company · Biopharmaceutical · Pharmaceuticals · Life Sciences · Healthcare · Clinical Trials · Nephrology · Cardiovascular
 
-**No API surface.** Rénibus publishes a ten-page corporate marketing site and no developer program. Contract discovery on 2026-08-05 probed `/openapi.json`, `/openapi.yaml`, `/swagger.json`, `/v1/openapi.json`, `/api-docs`, `/docs`, `/redoc`, `/graphql`, `/llms.txt`, `/.well-known/agent-card.json`, `/.well-known/agent.json`, `/.well-known/security.txt`, `/.well-known/openid-configuration`, `/.well-known/oauth-authorization-server`, `/.well-known/api-catalog` and `/.well-known/ai-plugin.json` — all 404. `api.`, `developer.`, `docs.`, `portal.`, `status.` and `trust.renibus.com` do not resolve in DNS. See `x-coverage` in `apis.yml`.
+## Rénibus Therapeutics on APIs.io
 
-- https://www.renibus.com/
-- https://forgeglobal.com/renibus-therapeutics_stock/
+Everything profiled for Rénibus Therapeutics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/renibus-therapeutics/](https://apis.io/providers/renibus-therapeutics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Renibus Therapeutics Domain Security](https://apis.io/security/renibus-therapeutics/renibus-therapeutics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.renibus.com/)
+- [Support](https://www.renibus.com/contact-us/)
+- [Blog](https://www.renibus.com/news-and-events/)
+- [Terms of service](https://www.renibus.com/terms-and-conditions/)
+- [Privacy policy](https://www.renibus.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 10.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/renibus-therapeutics/](https://apis.io/providers/renibus-therapeutics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rénibus Therapeutics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/renibus-therapeutics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
